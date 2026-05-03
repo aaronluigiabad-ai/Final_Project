@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    background: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+/* LOGO */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.logo span {
+    color: #ff003c;
+    letter-spacing: 5px;
+}
+
+/* NAME (TOP RIGHT) */
+.name {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    text-align: right;
+}
+
+.name h1 {
+    color: #ff003c;
+    font-size: 60px;
+    margin: 0;
+}
+
+.name p {
+    color: #ff003c;
+    margin: 0;
+}
+
+/* CENTER IMAGE */
+.center-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-img {
+    width: 300px;
+    position: relative;
+    z-index: 2;
+}
+.circle {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 10px solid #ff003c;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 40px #ff003c;
+    z-index: 1;
+}
+
+/* MENU */
+.menu {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+.menu a {
+    background: white;
+    color: black;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+/* SOCIALS */
+.socials {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    font-size: 20px;
+}
+
+.socials i {
+    margin-left: 15px;
+    cursor: pointer;
+}
+.circle {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 10px solid #ff003c;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 60px #ff003c;
+}
+
+/* HOME BUTTON */
+.home-btn {
+    position: absolute;
+    left: 50px;
+    bottom: 80px;
+    background: #ddd;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+/* CONTENT */
+.content {
+    position: absolute;
+    top: 30%;
+    left: 100px;
+    width: 400px;
+}
+
+.content h1 {
+    color: #ff003c;
+}
+
+.content p {
+    color: white;
+}
